@@ -1,0 +1,328 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+body .imgbox {
+  overflow: hidden;
+}
+body .imgbox img {
+  width: 100%;
+}
+body section {
+  padding: 50px 0;
+}
+
+header {
+  background: linear-gradient(to right, #85D8CE, #085078);
+}
+header .icon {
+  font-size: 30px;
+  color: blue;
+  margin: 15px;
+}
+header .icon-bar {
+  position: fixed;
+  width: 60px;
+  background-color: #085078;
+}
+header .icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 30px;
+}
+header .icon-bar a:hover {
+  background-color: #000;
+}
+header .active {
+  background-color: #002f47;
+}
+@media screen and (max-width: 580px) {
+  header .icon-bar {
+    display: block;
+  }
+  header .icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 580px) {
+  header .icon-bar {
+    display: none;
+  }
+  header .icon {
+    display: block;
+  }
+}
+
+#home {
+  color: #ffffff;
+  background: linear-gradient(to right, #85D8CE, #085078);
+  height: 103vh;
+}
+#home .box {
+  margin-top: 15px;
+  width: 320px;
+}
+#home .box h1 {
+  font-size: 20px;
+}
+#home .box h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+#home .box h3 {
+  font-size: 20px;
+}
+#home .box .btn-box {
+  margin: 15px 0;
+}
+#home .box .btn-box .btn1 {
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 23px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ffffff;
+}
+#home .box .btn-box .btn1:hover {
+  background-color: #283d60;
+}
+#home .box .btn-box .btn2 {
+  color: #283d60;
+  font-size: 23px;
+  background-color: #4398d8;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: 1px solid #4398d8;
+}
+#home .box .btn-box .btn2:hover {
+  background-color: #ffffff;
+}
+#home .box .imgbox {
+  background-color: #ffffff;
+  border-radius: 0 25%;
+  width: 220px;
+}
+#home .box hr {
+  color: #ffffff;
+}
+
+#aboutme {
+  background: linear-gradient(to right, #85D8CE, #085078);
+  height: 140vh;
+}
+#aboutme .col-md-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#aboutme h2 {
+  font-size: 20px;
+  color: #ffffff;
+}
+#aboutme h1 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #0a67ad;
+  margin: 10px 0;
+}
+#aboutme hr {
+  color: #ffffff;
+}
+#aboutme .box {
+  margin: 40px 0;
+}
+#aboutme .box .minibox {
+  width: 350px;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: #2c2c6c;
+  height: 250px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+  transition: 0.4s;
+}
+#aboutme .box .minibox:hover {
+  background-color: rgba(255, 255, 255, 0);
+  width: 400px;
+  height: 300px;
+}
+#aboutme .box .minibox .icon {
+  font-size: 40px;
+  color: #ffffff;
+}
+#aboutme .box .minibox h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 10px 0;
+}
+#aboutme .box .minibox h4 {
+  font-size: 19px;
+  margin: 3px 0;
+}
+#aboutme .textbox {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 1.8;
+}
+#aboutme .btn {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 23px;
+  background-color: #4398d8;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 15px 0;
+  border: 1px solid #4398d8;
+}
+#aboutme .btn:hover {
+  background-color: #ffffff;
+}
+
+#myexperience {
+  background: linear-gradient(to right, #85D8CE, #085078);
+  height: 103vh;
+}
+#myexperience .col-md-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#myexperience h2 {
+  font-size: 17px;
+  color: #ffffff;
+}
+#myexperience h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #085078;
+}
+#myexperience hr {
+  color: #ffffff;
+}
+#myexperience .box {
+  width: 70%;
+  border-radius: 20px;
+  background-color: #085078;
+  margin: 20px 0;
+  height: 500px;
+}
+#myexperience .box:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+#myexperience .box i {
+  color: #2d77ff;
+  font-size: 37px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+#myexperience .box ul li {
+  margin: 30px 0 0 10px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 15px;
+}
+
+#services {
+  background: linear-gradient(to right, #85D8CE, #085078);
+  height: 103vh;
+}
+#services .col-md-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#services h2 {
+  font-size: 17px;
+  color: #ffffff;
+}
+#services h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #085078;
+}
+
+#portfolio {
+  background: linear-gradient(to right, #85D8CE, #085078);
+  height: 200vh;
+}
+#portfolio h2 {
+  font-size: 17px;
+  color: #ffffff;
+}
+#portfolio h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #085078;
+}
+#portfolio .box {
+  height: 450px;
+  width: 350px;
+  margin: 10px;
+  margin-top: 50px;
+  border-radius: 20px;
+  border: 1px solid #2ab4ff;
+  background-color: #085078;
+  position: relative;
+}
+#portfolio .box:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+#portfolio .box .imgbox {
+  width: 150px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+#portfolio .box h1 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+}
+#portfolio .box .btn-box {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+#portfolio .box .btn-box .btn1 {
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 23px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ffffff;
+}
+#portfolio .box .btn-box .btn1:hover {
+  background-color: #283d60;
+}
+#portfolio .box .btn-box .btn2 {
+  color: #283d60;
+  font-size: 23px;
+  background-color: #4398d8;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: 1px solid #4398d8;
+}
+#portfolio .box .btn-box .btn2:hover {
+  background-color: #ffffff;
+}/*# sourceMappingURL=style.css.map */
