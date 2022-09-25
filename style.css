@@ -274,7 +274,7 @@ header .active {
   color: #085078;
 }
 #portfolio .box {
-  height: 450px;
+  height: 300px;
   width: 350px;
   margin: 10px;
   margin-top: 50px;
@@ -282,14 +282,15 @@ header .active {
   border: 1px solid #2ab4ff;
   background-color: #085078;
   position: relative;
+  box-shadow: 5px 5px #86cfff;
 }
 #portfolio .box:hover {
   background-color: rgba(255, 255, 255, 0);
 }
 #portfolio .box .imgbox {
-  width: 150px;
-  margin-left: 100px;
+  width: 280px;
   border-radius: 10px;
+  margin: 20px 0 0 35px;
 }
 #portfolio .box h1 {
   font-weight: 700;
@@ -325,4 +326,55 @@ header .active {
 }
 #portfolio .box .btn-box .btn2:hover {
   background-color: #ffffff;
+}
+
+#contact {
+  background: linear-gradient(to right, #85D8CE, #085078);
+  height: 120vh;
+}
+#contact .col-md-16 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#contact h2 {
+  font-size: 20px;
+}
+#contact h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #002b7c;
+}
+#contact .box {
+  border-radius: 20px;
+  width: 300px;
+  height: 150px;
+  background-color: #002b7c;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #979797;
+}
+#contact .box:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+#contact .box .icon {
+  color: #ffffff;
+  font-size: 24px;
+}
+#contact .box h1 {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #ffffff;
+}
+#contact .box h2 {
+  font-size: 20px;
+  margin: 8px 0;
+  color: #ffffff;
+}
+#contact .box a {
+  color: #1c76fd;
 }/*# sourceMappingURL=style.css.map */
