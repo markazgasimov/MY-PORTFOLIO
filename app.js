@@ -5,5 +5,4 @@ $('.icon').click(function (e) {
     e.preventDefault();
     $('.icon-bar').toggle();
 });
-
 });
