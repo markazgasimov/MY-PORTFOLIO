@@ -59,10 +59,9 @@ header .active {
 #home {
   color: #ffffff;
   background: linear-gradient(to right, #85D8CE, #085078);
-  height: 103vh;
+  height: 110vh 0;
 }
 #home .box {
-  margin-top: 15px;
   width: 320px;
 }
 #home .box h1 {
@@ -104,7 +103,7 @@ header .active {
 #home .box .imgbox {
   background-color: #ffffff;
   border-radius: 0 25%;
-  width: 220px;
+  width: 200px;
 }
 #home .box hr {
   color: #ffffff;
@@ -112,7 +111,7 @@ header .active {
 
 #aboutme {
   background: linear-gradient(to right, #85D8CE, #085078);
-  height: 140vh;
+  height: 140vh 0;
 }
 #aboutme .col-md-6 {
   display: flex;
@@ -191,9 +190,9 @@ header .active {
 
 #myexperience {
   background: linear-gradient(to right, #85D8CE, #085078);
-  height: 103vh;
+  height: 120h 0;
 }
-#myexperience .col-md-6 {
+#myexperience .main {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -261,7 +260,7 @@ header .active {
 
 #portfolio {
   background: linear-gradient(to right, #85D8CE, #085078);
-  height: 200vh;
+  height: 200vh 0;
 }
 #portfolio h2 {
   font-size: 17px;
@@ -330,9 +329,9 @@ header .active {
 
 #contact {
   background: linear-gradient(to right, #85D8CE, #085078);
-  height: 120vh;
+  height: 120vh 0;
 }
-#contact .col-md-16 {
+#contact .col-md-6 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -344,6 +343,7 @@ header .active {
 #contact h1 {
   font-size: 36px;
   font-weight: 700;
+  margin: 15px 0;
   color: #002b7c;
 }
 #contact .box {
@@ -377,4 +377,61 @@ header .active {
 }
 #contact .box a {
   color: #1c76fd;
+}
+#contact label {
+  font-size: 20px;
+  font-weight: 700;
+  color: #00255e;
+  font-style: italic;
+}
+#contact input {
+  width: 100%;
+  height: 40px;
+  margin: 20px 0;
+  border: 1px solid #00255e;
+  background-color: rgba(255, 255, 255, 0);
+}
+#contact textarea {
+  border: 1px solid #00255e;
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  border-radius: 6px;
+  margin: 20px 0;
+}
+#contact .btn {
+  padding: 20px 40px;
+  color: #000000;
+  background-color: #1c76fd;
+}
+#contact .btn:hover {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #4db5ff;
+  padding: 80px 0;
+}
+footer h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #004472;
+}
+footer .box {
+  margin: 15px 0;
+}
+footer .box a {
+  color: #004472;
+  font-size: 20px;
+}
+footer .box a:hover {
+  color: #fffff;
+  text-decoration: underline;
+}
+footer .icon {
+  font-size: 30px;
+  margin: 10px 0 30px 0;
+  color: #004472;
+}
+footer .icon i:hover {
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
