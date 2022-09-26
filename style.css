@@ -66,6 +66,7 @@ header .active {
 }
 #home .box h1 {
   font-size: 20px;
+  color: #003d72;
 }
 #home .box h2 {
   font-size: 36px;
@@ -74,6 +75,7 @@ header .active {
 }
 #home .box h3 {
   font-size: 20px;
+  color: #003d72;
 }
 #home .box .btn-box {
   margin: 15px 0;
@@ -113,7 +115,7 @@ header .active {
 }
 
 #aboutme {
-  background: linear-gradient(to right, #85D8CE, #085078);
+  background-color: #AEBDCA;
   height: 140vh 0;
 }
 #aboutme .col-md-6 {
@@ -130,7 +132,6 @@ header .active {
   font-weight: 700;
   font-size: 35px;
   color: #0a67ad;
-  margin: 10px 0;
 }
 #aboutme hr {
   color: #ffffff;
@@ -242,17 +243,16 @@ header .active {
 }
 
 #portfolio {
-  background: linear-gradient(to right, #85D8CE, #085078);
+  background-color: #AEBDCA;
   height: 200vh 0;
 }
 #portfolio h2 {
-  font-size: 17px;
+  font-size: 20px;
   color: #ffffff;
 }
 #portfolio h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
-  margin: 10px 0;
   color: #085078;
 }
 #portfolio .box {
@@ -323,11 +323,11 @@ header .active {
   flex-direction: column;
 }
 #certificates .textbox h2 {
-  font-size: 25px;
+  font-size: 20px;
   color: #ffffff;
 }
 #certificates .textbox h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   margin: 20px 0;
   color: #085078;
@@ -359,7 +359,7 @@ header .active {
 }
 
 #contact {
-  background: linear-gradient(to right, #85D8CE, #085078);
+  background-color: #AEBDCA;
   height: 120vh 0;
 }
 #contact .col-md-6 {
@@ -440,7 +440,7 @@ header .active {
 }
 
 footer {
-  background-color: #4db5ff;
+  background: linear-gradient(to right, #85D8CE, #085078);
   padding: 80px 0;
 }
 footer h1 {
