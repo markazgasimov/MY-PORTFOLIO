@@ -258,7 +258,7 @@ header .active {
   color: #085078;
 }
 #portfolio .box {
-  height: 300px;
+  height: 400px;
   width: 350px;
   margin: 10px;
   margin-top: 50px;
@@ -275,17 +275,17 @@ header .active {
 #portfolio .box .imgbox {
   width: 280px;
   border-radius: 10px;
-  margin: 20px 0 0 35px;
+  margin: 35px 0 0 35px;
 }
 #portfolio .box h1 {
   font-weight: 700;
   font-size: 20px;
   color: #ffffff;
-  margin: 25px 0;
+  margin: 35px 0;
   text-align: center;
 }
 #portfolio .box .btn-box {
-  margin: 15px 0;
+  margin: 25px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -428,6 +428,9 @@ header .active {
 }
 #contact .box a {
   color: #1c76fd;
+}
+#contact .minibox {
+  margin-top: 60px;
 }
 #contact label {
   font-size: 20px;
