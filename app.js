@@ -3,6 +3,6 @@ $(document).ready(function () {
 //Menu
 $('.icon').click(function (e) { 
     e.preventDefault();
-    $('.icon-bar').toggle();
+    $('.icon-bar').slideToggle('slow');
 });
 });
