@@ -5,4 +5,8 @@ $('.icon').click(function (e) {
     e.preventDefault();
     $('.icon-bar').slideToggle('slow');
 });
+//qr code
+$(".flip").click(function(){
+    $(".panel").slideToggle("slow");
+  });
 });

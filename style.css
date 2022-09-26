@@ -359,6 +359,23 @@ header .active {
   opacity: 0.9;
   cursor: pointer;
 }
+#certificates .flip {
+  padding: 15px 30px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #085078;
+}
+#certificates .flip:hover {
+  background-color: #85D8CE;
+}
+#certificates .panel {
+  display: none;
+}
+#certificates .panel .imgbox {
+  width: 200px;
+}
 
 #contact {
   background-color: #AEBDCA;
@@ -436,9 +453,11 @@ header .active {
   padding: 20px 40px;
   color: #000000;
   background-color: #1c76fd;
+  transition: 0.1s;
 }
 #contact .btn:hover {
   background-color: #ffffff;
+  transform: rotate(360deg);
 }
 
 footer {
