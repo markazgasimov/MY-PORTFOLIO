@@ -161,6 +161,7 @@ header .active {
   background-color: rgba(255, 255, 255, 0);
   width: 400px;
   height: 300px;
+  border: 10px outset #4398d8;
 }
 #aboutme .box .minibox .icon {
   font-size: 40px;
@@ -230,6 +231,7 @@ header .active {
 }
 #myexperience .box:hover {
   background-color: rgba(255, 255, 255, 0);
+  border: 10px outset #33FFF5;
 }
 #myexperience .box i {
   color: #2d77ff;
@@ -452,7 +454,7 @@ header .active {
   background-color: rgba(255, 255, 255, 0);
 }
 #contact input:hover {
-  background-color: #1c76fd;
+  background-color: #aeceff;
 }
 #contact textarea {
   border: 1px solid #00255e;
@@ -462,13 +464,39 @@ header .active {
   margin: 20px 0;
 }
 #contact textarea:hover {
-  background-color: #1c76fd;
+  background-color: #aeceff;
 }
 #contact .btn {
   padding: 20px 40px;
   color: #000000;
   background-color: #1c76fd;
   transition: 0.1s;
+  position: relative;
+}
+#contact .btn h1 {
+  font-size: 25px;
+}
+#contact .btn .icon1 {
+  position: absolute;
+  transition: 0.1s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 45px;
+  color: #085078;
+  opacity: 0;
+  background-color: #ffffff;
+  top: 0;
+}
+#contact .btn .icon1 i {
+  margin-right: 20px;
+}
+#contact .btn .icon1:hover {
+  opacity: 0.9;
+  cursor: pointer;
 }
 #contact .btn:hover {
   background-color: #ffffff;

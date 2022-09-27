@@ -9,4 +9,6 @@ $('.icon').click(function (e) {
 $(".flip").click(function(){
     $(".panel").slideToggle("slow");
   });
+//contact
+
 });
