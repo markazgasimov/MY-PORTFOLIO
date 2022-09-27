@@ -64,6 +64,7 @@ header .active {
   height: 110vh 0;
 }
 #home .box {
+  margin-top: 50px;
   width: 320px;
 }
 #home .box h1 {
