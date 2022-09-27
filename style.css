@@ -112,6 +112,7 @@ header .active {
 }
 #home .box .imgbox:hover {
   border-radius: 25% 0;
+  border: 10px outset #33FFF5;
 }
 #home .box hr {
   color: #ffffff;
