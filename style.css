@@ -179,7 +179,8 @@ header .active {
 #aboutme .textbox {
   margin-top: 40px;
   font-size: 20px;
-  color: #ffffff;
+  color: #000000;
+  text-shadow: 1px 1px;
   line-height: 1.8;
 }
 #aboutme .btn {
@@ -207,11 +208,11 @@ header .active {
   flex-direction: column;
 }
 #myexperience h2 {
-  font-size: 17px;
+  font-size: 20px;
   color: #ffffff;
 }
 #myexperience h1 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 700;
   margin: 10px 0;
   color: #085078;
@@ -255,9 +256,11 @@ header .active {
   color: #ffffff;
 }
 #portfolio h1 {
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 700;
+  margin: 10px 0;
   color: #085078;
+  letter-spacing: 2px;
 }
 #portfolio .box {
   height: 400px;
@@ -331,9 +334,9 @@ header .active {
   color: #ffffff;
 }
 #certificates .textbox h1 {
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 700;
-  margin: 20px 0;
+  margin: 10px 0;
   color: #085078;
 }
 #certificates .imgbox {
@@ -391,12 +394,13 @@ header .active {
 }
 #contact h2 {
   font-size: 20px;
+  color: #ffffff;
 }
 #contact h1 {
-  font-size: 36px;
+  font-size: 35px;
   font-weight: 700;
-  margin: 15px 0;
-  color: #002b7c;
+  margin: 10px 0;
+  color: #085078;
 }
 #contact .box {
   border-radius: 20px;
@@ -447,12 +451,18 @@ header .active {
   border: 1px solid #00255e;
   background-color: rgba(255, 255, 255, 0);
 }
+#contact input:hover {
+  background-color: #1c76fd;
+}
 #contact textarea {
   border: 1px solid #00255e;
   background-color: rgba(255, 255, 255, 0);
   width: 100%;
   border-radius: 6px;
   margin: 20px 0;
+}
+#contact textarea:hover {
+  background-color: #1c76fd;
 }
 #contact .btn {
   padding: 20px 40px;
@@ -472,24 +482,27 @@ footer {
 footer h1 {
   font-size: 30px;
   font-weight: 700;
-  color: #004472;
+  color: #ffffff;
 }
 footer .box {
   margin: 15px 0;
 }
 footer .box a {
-  color: #004472;
+  color: #ffffff;
   font-size: 20px;
 }
 footer .box a:hover {
-  color: #fffff;
+  color: #004472;
   text-decoration: underline;
 }
-footer .icon {
+footer .icon1 {
   font-size: 30px;
   margin: 10px 0 30px 0;
   color: #004472;
 }
-footer .icon i:hover {
+footer .icon1 i:hover {
+  color: #004472;
+}
+footer h2 {
   color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
