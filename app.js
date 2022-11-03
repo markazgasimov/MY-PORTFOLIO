@@ -11,4 +11,5 @@ $(".flip").click(function(){
   });
 //contact
 
+//home page image animation
 });
