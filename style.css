@@ -109,9 +109,17 @@ header .active {
 }
 #home .box .imgbox {
   background-color: #ffffff;
-  border-radius: 50%;
-  width: 250px;
   border: 5px solid;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 270px;
+  height: 270px;
+}
+#home .box .imgbox img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #home .box hr {
   color: #ffffff;
